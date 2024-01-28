@@ -39,6 +39,15 @@
 
         <section>
           <section
+            data-markdown="docs/disclaimer.md"
+            data-separator="^\n\n\n"
+            data-separator-vertical="^\n\n"
+            data-separator-notes="^Note:"
+          ></section>
+        </section>
+
+        <section>
+          <section
             data-markdown="docs/introduction.md"
             data-separator="^\n\n\n"
             data-separator-vertical="^\n\n"
@@ -49,6 +58,15 @@
         <section>
           <section
             data-markdown="docs/project_structure.md"
+            data-separator="^\n\n\n"
+            data-separator-vertical="^\n\n"
+            data-separator-notes="^Note:"
+          ></section>
+        </section>
+
+        <section data-background="#120b27" data-background-transition="zoom">
+          <section
+            data-markdown="docs/naming.md"
             data-separator="^\n\n\n"
             data-separator-vertical="^\n\n"
             data-separator-notes="^Note:"
@@ -66,7 +84,25 @@
 
         <section>
           <section
+            data-markdown="docs/parallel_async_calls.md"
+            data-separator="^\n\n\n"
+            data-separator-vertical="^\n\n"
+            data-separator-notes="^Note:"
+          ></section>
+        </section>
+
+        <section data-background="#7f4e4e" data-background-transition="zoom">
+          <section
             data-markdown="docs/code_structure_error_handling.md"
+            data-separator="^\n\n\n"
+            data-separator-vertical="^\n\n"
+            data-separator-notes="^Note:"
+          ></section>
+        </section>
+
+        <section data-background="#7f4e4e" data-background-transition="zoom">
+          <section
+            data-markdown="docs/control_component.md"
             data-separator="^\n\n\n"
             data-separator-vertical="^\n\n"
             data-separator-notes="^Note:"
@@ -89,6 +125,7 @@
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
+      Reveal.configure({ backgroundTransition: 'zoom' });
     </script>
   </body>
 </html>

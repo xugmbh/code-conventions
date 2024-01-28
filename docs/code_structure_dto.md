@@ -1,4 +1,4 @@
-# DTOs (Data Transfer Objects):
+### DTOs (Data Transfer Objects)
 DTOs to define the shape of data being transferred between client and server. They are meant to be generic as much as possible.
 
 
