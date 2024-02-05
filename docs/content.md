@@ -10,4 +10,6 @@ Here are the following content. It can be edited by any team member as agreed.
 - [docs/parallel_async_calls.md](./#/7)
 - [docs/code_structure_error_handling.md](./#/8)
 - [docs/control_component.md](./#/9)
+- [docs/single_responsibility_principle.md](./#/10)
+- [docs/db_references.md](./#/11)
 

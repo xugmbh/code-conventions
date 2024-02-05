@@ -19,7 +19,7 @@ DTOs to define the shape of data being transferred between client and server. Th
 - Should return what the FE expect.
 - Always be careful from nested DTOs. Think about them if they are not presented in the main object. "get" from lodash id your friend here.
 
-```ts [12-16]
+```ts
 import { RichTextModel, contentfulAssetDto } from '@xu-group/nest/contentful';
 import { Asset as ContentfulAsset } from 'contentful';
 import { get } from 'lodash';
